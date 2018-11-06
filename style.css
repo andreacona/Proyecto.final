@@ -1,0 +1,45 @@
+.navbar {
+  margin-bottom: 0px;
+  border: 0px;
+}
+
+.container-fluid-nav {
+ background-color: black;
+}
+
+.jumbotron{
+  height: 700px;
+  background-image: url("assets/img/bg2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-bottom: 0px;
+
+}
+
+.header__inner{
+  margin: 0px;
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 300;
+  overflow: hidden;
+
+}
+
+.servicios{
+  margin-top: 150px;
+}
+
+.servicios__inner-icon{
+  font-size: 80px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #7C919D
+}
+
+.servicios__inner{
+  font-family: roboto;
+  text-align: center;
+
+}
