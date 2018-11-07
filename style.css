@@ -7,28 +7,54 @@
  background-color: black;
 }
 
-.jumbotron{
-  height: 700px;
+.header_divertec{
   background-image: url("assets/img/bg2.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  overflow: hidden;
+  height: 700px;
+  background-size: cover;
+  text-align: center;
   margin-bottom: 0px;
+  padding-top: 271px;
 
 }
 
-.header__inner{
+jumbotron .h1, .jumbotron h1 {
+  color: white;
+  font-size: 76px;
+}
+
+.jumbotron p {
+ color: white;
+}
+
+.header_divertec__inner{
   margin: 0px;
   position: relative;
-  text-align: center;
   font-family: sans-serif;
   font-weight: 300;
-  overflow: hidden;
+  color: white;
+}
 
+.btn_divertec {
+  background-color: #7c919d;
+  border-radius: 30px;
+  padding: 2rem 6rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn_divertec:hover {
+  background-color: hsla(227, 100%, 60%, .1);
+  color: #7c919d;
 }
 
 .servicios{
   margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .servicios__inner-icon{
@@ -42,4 +68,33 @@
   font-family: roboto;
   text-align: center;
 
+}
+
+
+.Formulario{
+  padding-top: 95px;
+  padding-bottom: 95px;
+  background-color: black;
+}
+
+.formulario__inner{
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.formulario__inner-subtitulo{
+  padding-bottom: 20px;
+}
+
+.formulario__inner-text{
+  padding-bottom: 20px;
+}
+label{
+  margin-bottom: 30px;
+}
+
+.form-control{
+  padding-left: 70px;
 }
