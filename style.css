@@ -3,9 +3,29 @@
   border: 0px;
 }
 
+h1{
+  font-family: Oswald;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: Oswald;
+}
+
+h3{
+  font-family: Oswald;
+}
+
+h4{
+  font-family: Roboto;
+  color: white;
+}
 .container-fluid-nav {
  background-color: black;
 }
+
+/*HEADER ------------------------------------*/
 
 .header_divertec{
   background-image: url("assets/img/bg2.jpg");
@@ -19,15 +39,6 @@
 
 }
 
-jumbotron .h1, .jumbotron h1 {
-  color: white;
-  font-size: 76px;
-}
-
-.jumbotron p {
- color: white;
-}
-
 .header_divertec__inner{
   margin: 0px;
   position: relative;
@@ -35,6 +46,19 @@ jumbotron .h1, .jumbotron h1 {
   font-weight: 300;
   color: white;
 }
+
+
+jumbotron .h1, .jumbotron h1 {
+  color: white;
+  font-size: 76px;
+
+}
+
+.jumbotron p {
+ color: white;
+}
+
+/* SECTION SERVICIOS ------------------------------------*/
 
 .btn_divertec {
   background-color: #7c919d;
@@ -47,40 +71,79 @@ jumbotron .h1, .jumbotron h1 {
   margin-bottom: 30px;
 }
 
+
 .btn_divertec:hover {
-  background-color: hsla(227, 100%, 60%, .1);
-  color: #7c919d;
+  background-color: #3A3A3A;
+  color: white;
 }
 
 .servicios{
-  margin-top: 150px;
-  margin-bottom: 150px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  border-bottom: 1px solid black;
+  font-family: roboto;
+  text-align: center;
 }
 
 .servicios__inner-icon{
   font-size: 80px;
   text-align: center;
   padding-bottom: 20px;
-  color: #7C919D
+  color:  #3A3A3A;
 }
 
-.servicios__inner{
-  font-family: roboto;
+/*SECTION PORTAFOLIO ------------------------------------*/
+.portafolio{
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.portafolio__inner-servicios{
   text-align: center;
-
+  font-family: Roboto;
+  font-weight: 300;
+  padding-left: 20px;
+}
+.thumbnail{
+  height: 170px;
+  width: 180px;
+  padding: 7px;
+  background-color: #3A3A3A;
 }
 
+.portafolio__inner-icon{
+  font-size: 35px;
+  color: white;
+  padding-top: 20px;
+  color: #7c919d;
+}
+
+.portafolio__inner-icon-1{
+  font-size: 35px;
+  color: white;
+  padding-top: 36px;
+  color: #7c919d;
+}
+
+.portafolio__inner-icon-2{
+  font-size: 35px;
+  color: white;
+  padding-top: 40px;
+  color: #7c919d;
+}
+
+
+/* SECTION FORMULARIO  ------------------------------------*/
 
 .Formulario{
   padding-top: 95px;
   padding-bottom: 95px;
-  background-color: black;
+  background-color: #3A3A3A;
 }
 
 .formulario__inner{
   color: white;
   text-align: center;
-  font-family: sans-serif;
+  font-family: roboto;
   font-weight: lighter;
 }
 

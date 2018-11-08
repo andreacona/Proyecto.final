@@ -37,19 +37,17 @@ Requerimientos Visuales:
    -  Para crear el Layout, se usará grilla Boostrap, versión 3.3.7
 
   - FUENTES:
-    -	Tipografías:
-    -	Títulos:
+    -	Tipografías: Roboto regular
+    -	Títulos: Roboto regular
     -	Párrafos:
-    -	Sub-títulos secciones:
 
   -	PALETA DE COLORES:
     -
-      - letras parrafo:
-      - Títulos:
-      - Subtitulos:  
-      - background header/background Nosotros/background tomates para tu negocio:
-      - background Footer:
-      - BOTON:
+      - letras parrafo: black;
+      - Títulos: white; #7c919d; 
+      - background Footer: black;
+      - BOTON: #7c919d;
+      - Iconos: #7c919d;
 
   - Imágenes:
      Las imágenes se encuentran dentro de la carpeta Assets/img.

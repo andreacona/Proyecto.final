@@ -8,13 +8,14 @@
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <!-- FONTAWESOM-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 
-  <!-- tipografía playfair y rotobo-->
+  <!-- tipografía Oswald y rotobo-->
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
   <!-- Mi guía de estilos-->
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -42,9 +43,9 @@
   <!-- header -->
 
   <header>
-      <div class="jumbotron header_divertec">
-        <h1 class="header_divertec__inner-titulo">DIVERTEC</h1>
-        <p class="header_divertec__inner-subtitulo">INGENIERÍA Y PROYECTOS MECÁNICOS</p>
+    <div class="jumbotron header_divertec">
+      <h1 class="header_divertec__inner-titulo">DIVERTEC</h1>
+      <p class="header_divertec__inner-subtitulo">INGENIERÍA Y PROYECTOS MECÁNICOS</p>
     </div>
   </header>
 
@@ -74,7 +75,7 @@
               <i class="fas fa-users"></i>
             </div>
             <h3>CLIENTES</h3>
-            <p>Hemos realizado proyectos para grandes clientes como Cemento Melón, Carabineros de Chile, entre otros.</p>
+            <p style="padding-bottom: 20px;">Hemos realizado proyectos para grandes clientes como Cemento Melón, Carabineros de Chile, entre otros.</p>
             <button class="btn_divertec" type="button" name="button">Ver más</button>
           </div>
 
@@ -82,28 +83,85 @@
       </div>
     </div>
   </section>
-  <section class="Formulario">
+
+  <!-- PORTAFOLIO DE TRABAJOS -->
+  <section class="container-fluid portafolio">
+    <div class="portafolio__inner-subtitulo">
+      <h2>PROYECTOS REALIZADOS</h2>
+    </div>
     <div class="row">
-      <div class="col-md-12 formulario__inner">
-        <h3 class="formulario__inner-subtitulo">Quieres saber más acerca de nosotros?</h3>
-        <p class="formulario__inner-text">Envíanos tu correo, te contactaremos a la brevedad</p>
-        <div class="col-md-4 col-md-offset-4">
-          <form class="form-inline">
-            <div class="form-group">
-              <label for="exampleInputName2">Nombre</label>
-              <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+        <div class="col-md-2 col-md-offset-3 portafolio__inner-servicios">
+          <div class="thumbnail">
+            <h4 class=portafolio__inner-servicios-text>INGENIERÍA BÁSICA CONCEPTUAL Y DETALLE</h4>
+            <i class="fas fa-arrow-circle-up portafolio__inner-icon"></i>
+          </div>
+        </div>
+
+        <div class="col-md-2 portafolio__inner-servicios">
+          <div class="thumbnail">
+            <h4 class="portafolio__inner-servicios-text">DISEÑO MECÁNICO DE EQUIPOS</h4>
+            <i class="fas fa-arrow-circle-up portafolio__inner-icon-1"></i>
+          </div>
+        </div>
+
+        <div class="col-md-2 portafolio__inner-servicios">
+          <div class="thumbnail">
+            <h4 class=portafolio__inner-servicios-text>DISEÑO PARAMÉTRICO <br> 3D</h4>
+            <i class="fas fa-arrow-circle-up portafolio__inner-icon"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+          <div class="col-md-2 col-md-offset-3 portafolio__inner-servicios">
+            <div class="thumbnail">
+              <h4 class="portafolio__inner-servicios-text">SIMULACIONES DINÁMICAS</h4>
+              <i class="fas fa-arrow-circle-up portafolio__inner-icon"></i>
             </div>
-            <div class="form-group">
-              <label for="exampleInputEmail2">E-mail</label>
-              <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+          </div>
+
+          <div class="col-md-2 portafolio__inner-servicios">
+            <div class="thumbnail">
+              <h4 class="portafolio__inner-servicios-text">LEVANTAMIENTOS DIMENSIONALES</h4>
+              <i class="fas fa-arrow-circle-up portafolio__inner-icon"></i>
             </div>
-            <button type="submit" class="btn btn-default">Contáctame</button>
-          </form>
+          </div>
+
+          <div class="col-md-2 portafolio__inner-servicios">
+            <div class="thumbnail">
+              <h4 class="portafolio__inner-servicios-text">METROLOGÍA</h4>
+              <i class="fas fa-arrow-circle-up portafolio__inner-icon-2"></i>
+            </div>
+          </div>
+
+        </div>
+  </section>
+
+
+    <!-- SECCIÓN FORMULARIO -->
+    <section class="Formulario">
+      <div class="row">
+        <div class="col-md-12 formulario__inner">
+          <h3 class="formulario__inner-subtitulo">QUIERES COTIZAR TU PROYECTO MECÁNICO?</h3>
+          <p class="formulario__inner-text">Envíanos tu correo, te contactaremos a la brevedad</p>
+          <div class="col-md-4 col-md-offset-4">
+            <form class="form-inline">
+              <div class="form-group">
+                <label for="exampleInputName2">Nombre</label>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail2">E-mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+              </div>
+              <button type="submit" class="btn btn-default">Contáctame</button>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-
-  </section>
+    </section>
 
 
 
