@@ -17,9 +17,8 @@ Ella debe servir de plataforma para mostrar a sus futuros clientes los proyectos
 
 
 - Ser responsiva
-- Reforzas la identidad visual en la paleta cromática
+- ReforzaR la identidad visual en la paleta cromática
 - Dar enfásis en la sección de clientes
-- Mostrar la marca gráfica de la empresa
 
 
 4. Requerimientos Específicos:
@@ -37,17 +36,17 @@ Requerimientos Visuales:
    -  Para crear el Layout, se usará grilla Boostrap, versión 3.3.7
 
   - FUENTES:
-    -	Tipografías: Roboto regular
-    -	Títulos: Roboto regular
-    -	Párrafos:
+    -	Tipografías: Roboto regular / Oswal
+    -	Títulos: Oswald regular
+    -	Párrafos: roboto regular
 
   -	PALETA DE COLORES:
     -
       - letras parrafo: black;
-      - Títulos: white; #7c919d; 
+      - Títulos: white; #3A3A3A;
       - background Footer: black;
       - BOTON: #7c919d;
-      - Iconos: #7c919d;
+      - Iconos: white; #3A3A3A
 
   - Imágenes:
      Las imágenes se encuentran dentro de la carpeta Assets/img.
