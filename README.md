@@ -33,6 +33,7 @@ Para el maquetado del sitio web se utilizará:
 Requerimientos Visuales:
 
   - Layout:
+  - Landing Page
    -  Para crear el Layout, se usará grilla Boostrap, versión 3.3.7
 
   - FUENTES:
