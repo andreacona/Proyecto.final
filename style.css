@@ -1,10 +1,15 @@
-.navbar {
-  margin-bottom: 0px;
-  border: 0px;
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
 }
 
 h1{
   font-family: Oswald;
+  font-size: 80px;
 
 }
 
@@ -28,55 +33,80 @@ h5{
   font-family: Roboto;
   color: white;
 }
-.container-fluid-nav {
- background-color: #f4f4f6;
-}
 
 
 /*HEADER ------------------------------------*/
-
-.header_divertec{
-  background-image: url("assets/img/bg.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 600px;
-  background-size: cover;
-  text-align: center;
-  margin-bottom: 0px;
-  padding-top: 50px;
-  border-bottom: 1px solid black;
-
+ul, ol{
+  list-style: none;
 }
 
-.header_divertec__inner{
-  margin: 0px;
+.slidershow{
+  width: 100%;
   position: relative;
-  font-family: sans-serif;
-  font-weight: 300;
+
+}
+.slider li, ul{
+  width: 100%;
+}
+.slider li, img{
+  width: 100%;
+}
+
+.slider .caption{
+  position: absolute;
+  width: 100%;
+  height:100%;
+  top: 0;
+  left: 0;
+  padding:  15px 50px;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+
 }
 
-.header_divertec_contenedor{
-  width: 600px;
-  height: 500px;
-  border: solid 1px white;
-  padding-top: 130px;
+.pagination{
+  position: absolute;
+  top:100,2%;
+  width: 100%;
+
+ display: flex;
+ justify-content: center;
 
 }
 
-jumbotron .h1, .jumbotron h1 {
+.pagination li{
+  font-size: 20px;
+  margin: 2px 5px;
+  color: #7c919d;
+  cursor: pointer;
+}
+
+.left, .right{
+  position: absolute;
+  top: 0;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
   color: white;
-  font-size: 105px;
+  font-size: 35px;
+  z-index: 2;
+  cursor: pointer;
 
 }
 
-.jumbotron p {
-  font-style: san serif;
-  font-weight: lighter;
-   color: white;
-  padding-top: 24px;
+.left{
+  left: 10px;
 }
 
+.right{
+  right: 10px;
+}
 /* SECTION SERVICIOS ------------------------------------*/
 
 .btn_divertec {

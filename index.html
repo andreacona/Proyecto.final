@@ -9,8 +9,7 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
   <!-- FONTAWESOM-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 
@@ -22,41 +21,39 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid-nav">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <img alt="Brand" src="Assets/img/logo.png" style="width: 190px; padding-left: 10px; padding-top: 5px;">
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">Servicios</a></li>
-          <li><a href="#">Clientes</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
 
   <!-- header -->
 
-  <header class="row">
-    <div class="jumbotron header_divertec">
-      <div class="header_divertec_contenedor col-md-6 col-md-offset-3">
+<header class="slidershow">
+  <ul class="slider">
+    <li>
+      <img src="Assets/img/bg11.jpg" alt="">
+      <section class="caption">
+        <h1>D I V E R T E C 1</h1>
+        <p>INGENIERÍA Y PROYECTOS MECÁNICOS</p>
+      </section>
+    </li>
 
-        <h1 class="header_divertec__inner-titulo">D I V E R T E C</h1>
-        <p class="header_divertec__inner-subtitulo">INGENIERÍA Y PROYECTOS MECÁNICOS</p>
-      </div>
-    </div>
-  </header>
+    <li>
+      <img src="Assets/img/bg2.jpg" alt="">
+      <section class="caption">
+        <h1>D I V E R T E C 2</h1>
+        <p>INGENIERÍA Y PROYECTOS MECÁNICOS</p>
+      </section>
+    </li>
+  </ul>
+
+  <ol class="pagination">
+
+  </ol>
+  <div class="left">
+    <span class="fa fa-chevron-left"></span>
+  </div>
+  <div class="right">
+    <span class="fa fa-chevron-right"></span>
+  </div>
+
+</header>
 
   <!-- section servicios -->
   <section class="servicios">
@@ -220,14 +217,9 @@
   </footer>
 
 
-
-  <!-- jquery 3.3.1 -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <!-- fancybox -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
-  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>
